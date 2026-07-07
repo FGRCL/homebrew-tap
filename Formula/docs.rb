@@ -7,7 +7,7 @@ class Docs < Formula
 
   depends_on "rust" => :build
   depends_on "fzf"
-  depends_on "tldr"
+  depends_on "tealdeer"
 
   def install
     system "cargo", "install", *std_cargo_args
