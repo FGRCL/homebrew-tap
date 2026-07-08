@@ -2,7 +2,7 @@ class Docs < Formula
   desc "Search your man pages with fzf"
   homepage "https://github.com/FGRCL/docs"
   url "https://github.com/FGRCL/docs/archive/refs/tags/0.0.3.tar.gz"
-  sha256 "fb6ef71ce007ff9d4259a5100897f348d34b782e92c9f9f4885fdd9f70f05563"
+  sha256 "bde1594125d5ac188cde5af52fee54221b463c4d1f419d9781eb3e2ba16ad6aa"
   license ""
 
   depends_on "rust" => :build
